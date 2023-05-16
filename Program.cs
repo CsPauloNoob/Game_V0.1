@@ -16,7 +16,7 @@ public static class Program
    public static void Main()
    {
 		
-		Console.FontSize = 12;
+		//Console.FontSize = 12;
 		Game Game = new Game();
       //MAIN é o menu do jogo, inicializa os principais processos
 		
@@ -30,7 +30,7 @@ public static class Program
 		{
 			Console.WriteLine("\n");
 			Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-			Console.WriteLine("                      RPG NOME KKK                          \n\n");
+			Console.WriteLine("                      RPG NOME NAMELESS                          \n\n");
 			Console.WriteLine("==================");
 			Console.WriteLine(" [> (1)NEW GAME <]\n [> (2)CONTINUE <]");
 			Console.WriteLine("==================");
@@ -92,7 +92,6 @@ public static class Program
 		
 		//Console.WriteLine(SavesVerify.savesList[0].IdSave);
 		Console.WriteLine(ArmasDB.ArmasDBList[0].name);
-		
 		
    }
 }
